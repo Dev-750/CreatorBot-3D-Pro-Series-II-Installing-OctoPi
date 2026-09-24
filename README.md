@@ -1,4 +1,4 @@
-# CreatorBot-3D-Pro-Series-II-Installing-OctoPi
+# CreatorBot 3D Pro Series II - Installing OctoPi
 OctoPi, OctoDash, Touch Drivers, etc.
 
 # Introduction
