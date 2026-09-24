@@ -3,7 +3,7 @@ OctoPi, OctoDash, Touch Drivers, etc.
 
 # Introduction
 
-If you have a CreatorBot 3D Pro Series II, Wow that's a mouth-full, and the current PrinterWorks OS isn't working you've come to the right place. This will show you how to get your printer back up and running with OctoPrint.
+If you have a CreatorBot 3D Pro Series II, wow that's a mouthful, and the current PrinterWorks OS isn't working you've come to the right place. This will show you how to get your printer back up and running with OctoPrint.
 
 ## Setup Used
 - Linux machine running Ubuntu 24
