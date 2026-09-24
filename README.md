@@ -12,11 +12,12 @@ Since this printer comes with a touch screen, you might aswell have a GUI on it.
 5. Use the script below to Install OctoDash
 
 This script is also on the OctoDash Github
-```
+
+```bash
 bash <(wget -qO- https://github.com/UnchartedBull/OctoDash/raw/main/scripts/install.sh)
 ```
 
-6. Follow the selection prompts. *The last prompt will reboot the Pi*
+6. Follow the selection prompts. The last prompt will reboot the Pi
 
 [OctoDash Github](https://github.com/UnchartedBull/OctoDash)
 
