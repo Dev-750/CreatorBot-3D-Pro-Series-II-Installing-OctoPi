@@ -86,6 +86,8 @@ dtoverlay=ads7846,cs=1,penirq=25,penirq_pull=2,speed=50000,keep_vref_on=0,swapxy
 
 - **Feed Length**: 80-120mm
 - **Feed Speed**: 3-5mm/s
+
 *If it stops short of extruding at the nozzle, increase length; if it grinds/skips, decrease speed*
+
 - **API Key**: Click the verify button. A modal will appear on the OctoPrint interface in your browser. Click "Allow"
 - Choose what functions you want Enabled/Disabled
