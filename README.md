@@ -21,9 +21,9 @@ If you have a CreatorBot 3D Pro Series II, Wow that's a mouth-full, and the curr
 Now that OctoPi is on the Pi it will Start the OctoPrint server which can be accessed from a Browser on the same network to control the printer.
 
 1. To access OctoPrint, open your browser and type in one of three options:
-- [ ] `http://octopi.local`
-- [ ] `http://<custom-hostname>.local
-- [ ] `http://<pi's-IP-address>.local`
+- `http://octopi.local`
+- `http://<custom-hostname>.local`
+- `http://<pi's-IP-address>.local`
 
 Using the IP address seems to work the best. To find it type:
 ```bash
@@ -32,7 +32,7 @@ hostname -I
  in the Pi's Terminal. **You will either need a keyboard, SSH, or Putty, etc**
 
 To SSH into the Pi type: 
-```
+```bash
 ssh <username>@<hostname.local or IP>
 ``` 
 and enter the Password
