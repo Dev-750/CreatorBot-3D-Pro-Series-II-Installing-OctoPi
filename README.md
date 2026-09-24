@@ -17,21 +17,21 @@ bash <(wget -qO- https://github.com/UnchartedBull/OctoDash/raw/main/scripts/inst
 
 6. Follow the selection prompts. *The last prompt will reboot the Pi*
 
-[OctoDash Github](https://github.com/UnchartedBull/OctoDash)￼
-[@ChrisRiley Installation Video](https://m.youtube.com/watch?v=kwo3HMBnqC4)￼
+[OctoDash Github](https://github.com/UnchartedBull/OctoDash)
+[@ChrisRiley Installation Video](https://m.youtube.com/watch?v=kwo3HMBnqC4)
 
-￼# Touch Driver Install
+# Touch Driver Install
 The screen is a genwric HDMI resistove/capacitive touch display that is connected via SPI.
 
 1. `sudo raspi-config` -> Interface Options -> SPI -> Enable -> Reboot
 2. Enter the config file `sudo nano /boot/firmware/config.txt`
-￼3. Add the following to the bottom of the file: 
+3. Add the following to the bottom of the file: 
    ```
    dtoverlay=ads7846,cs=1,penirq=25,penirq_pull=2,speed=50000,keep_vref_on=0,swapxy=0,pmax=255,xohms=150,xmin=200,xmax=3900,ymin=200,ymax=3900
    ```
    4. Save (`Ctrl+O`, `Enter`) and exit (`Ctrl+X`), then reboot
 
-￼# OctoDash Setup
+# OctoDash Setup
 - **Feed Length**: 80-120mm
 - **Feed Speed**: 3-5mm/s
 *If it stops short of extruding at the nozzle, increase length; if it grinds/skips, decrease speed*
