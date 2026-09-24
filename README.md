@@ -4,6 +4,12 @@ OctoPi, OctoDash, Touch Drivers, etc.
 # Introduction
 
 If you have a CreatorBot 3D Pro Series II, Wow that's a mouth-full, and the current PrinterWorks OS isn't working you've come to the right place. This will show you how to get your printer back up and running with OctoPrint.
+
+## Setup Used
+- Linux machine running Ubuntu 24
+- Connected to Pi via Wifi
+- Pi controlled via SSH
+
 # Creating the Image
 1. You will need to Format the Raspberry Pi's SD card or get another micro SD (8-32GB). It must be FAT32.
 2. Install the Raspberry Pi Imager. On a debian terminal you can us `sudo apt install rpi-imager`
