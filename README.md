@@ -12,7 +12,7 @@ If you have a CreatorBot 3D Pro Series II, wow that's a mouthful, and the curren
 
 # Creating the Image
 1. You will need to Format the Raspberry Pi's SD card or get another micro SD (8-32GB). It must be FAT32.
-2. Install the Raspberry Pi Imager. On a debian terminal you can us `sudo apt install rpi-imager`
+2. Install the Raspberry Pi Imager. On a debian terminal you can use `sudo apt install rpi-imager`
 3. In the Imager, set the OS under "Other (Specific)" -> "3D Printing" -> select "OctoPi (Stable)"
 4. Configure image options
 	1. Set Hostname, Username, password
@@ -44,11 +44,11 @@ ssh <username>@<hostname.local or IP>
 and enter the Password
 
 2. Once the interface loads, create an account.
-3. Now you will see all of your printers metrics and options and be able to control and print from here.
+3. Now you will see all of your printer's metrics and options and be able to control and print from here.
 
 # OctoDash Install
 
-Since this printer comes with a touch screen, you might aswell have a GUI on it. OctoDash gives you access to key controls right from the touch screen
+Since this printer comes with a touch screen, you might as well have a GUI on it. OctoDash gives you access to key controls right from the touch screen
 
 1. Update the system: `sudo apt update`
 2. Upgrade packages; `sudo apt upgrade`
@@ -70,7 +70,7 @@ bash <(wget -qO- https://github.com/UnchartedBull/OctoDash/raw/main/scripts/inst
 
 # Touch Driver Install
 
-The screen is a genwric HDMI resistove/capacitive touch display that is connected via SPI.
+The screen is a generic HDMI resistive/capacitive touch display that is connected via SPI.
 
 1. `sudo raspi-config` -> Interface Options -> SPI -> Enable -> Reboot
 2. Enter the config file `sudo nano /boot/firmware/config.txt`
